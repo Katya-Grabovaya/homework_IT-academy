@@ -3,7 +3,7 @@ const fs = require('fs-extra');
 fs.mkdirSync('C:\Users\USER_2021\it-academy\homework_IT-academy\LESSON_04\newTest');
 fs.ensureDirSync('C:\Users\USER_2021\it-academy\homework_IT-academy\LESSON_04\newTest');
 
-const file = 'C:\Users\USER_2021\it-academy\homework_IT-academy\LESSON_04\newTest\Test_1.txt';
+let file = 'C:\Users\USER_2021\it-academy\homework_IT-academy\LESSON_04\newTest\Test_1.txt';
 const fileContent = 'Текст файла';
 fs.createFileSync (file);
 
