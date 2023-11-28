@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="49" failures="0" errors="0" time="1.141">
+  <testsuite name="Tests for mathematical operation of subtraction" errors="0" failures="0" skipped="0" timestamp="2023-11-20T19:58:26" time="0.331" tests="10">
+    <testcase classname="Tests for mathematical operation of subtraction Should return correct difference of integers" name="Tests for mathematical operation of subtraction Should return correct difference of integers" time="0.003">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of subtraction Should return correct difference of decimal numbers" name="Tests for mathematical operation of subtraction Should return correct difference of decimal numbers" time="0.001">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of subtraction Should return correct difference of negative numbers" name="Tests for mathematical operation of subtraction Should return correct difference of negative numbers" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of subtraction Should return correct difference of negative number and positive number" name="Tests for mathematical operation of subtraction Should return correct difference of negative number and positive number" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of subtraction should return error without parameter" name="Tests for mathematical operation of subtraction should return error without parameter" time="0.001">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of subtraction Should report an error when using a string instead of a number" name="Tests for mathematical operation of subtraction Should report an error when using a string instead of a number" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of subtraction 3 - 2 equal 1" name="Tests for mathematical operation of subtraction 3 - 2 equal 1" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of subtraction -3 - -4 equal 1" name="Tests for mathematical operation of subtraction -3 - -4 equal 1" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of subtraction 5 - 2 equal 3" name="Tests for mathematical operation of subtraction 5 - 2 equal 3" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of subtraction -5 - 6 equal -11" name="Tests for mathematical operation of subtraction -5 - 6 equal -11" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Tests for mathematical operation of multiplication" errors="0" failures="0" skipped="0" timestamp="2023-11-20T19:58:26" time="0.158" tests="11">
+    <testcase classname="Tests for mathematical operation of multiplication Should return correct composition of integers" name="Tests for mathematical operation of multiplication Should return correct composition of integers" time="0.002">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of multiplication Should return correct composition of decimal number" name="Tests for mathematical operation of multiplication Should return correct composition of decimal number" time="0.001">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of multiplication Should return correct composition of negative numbers" name="Tests for mathematical operation of multiplication Should return correct composition of negative numbers" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of multiplication Should return correct composition of negative number and positive number" name="Tests for mathematical operation of multiplication Should return correct composition of negative number and positive number" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of multiplication should return 0 when multiplied by 0" name="Tests for mathematical operation of multiplication should return 0 when multiplied by 0" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of multiplication should return 1 without parameter" name="Tests for mathematical operation of multiplication should return 1 without parameter" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of multiplication Should return an error when using a string instead of a number" name="Tests for mathematical operation of multiplication Should return an error when using a string instead of a number" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of multiplication 2 * 4 equal 8" name="Tests for mathematical operation of multiplication 2 * 4 equal 8" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of multiplication -3 * 9 equal -27" name="Tests for mathematical operation of multiplication -3 * 9 equal -27" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of multiplication 2 * 3 equal 8" name="Tests for mathematical operation of multiplication 2 * 3 equal 8" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of multiplication -6 * -5 equal 30" name="Tests for mathematical operation of multiplication -6 * -5 equal 30" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Tests for mathematical operation of division" errors="0" failures="0" skipped="0" timestamp="2023-11-20T19:58:27" time="0.168" tests="11">
+    <testcase classname="Tests for mathematical operation of division Should return correct quotient of integers" name="Tests for mathematical operation of division Should return correct quotient of integers" time="0.002">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of division Should return correct quotient of decimal numbers" name="Tests for mathematical operation of division Should return correct quotient of decimal numbers" time="0.001">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of division Should return correct quotient of negative numbers" name="Tests for mathematical operation of division Should return correct quotient of negative numbers" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of division Should return correct quotient of negative number and positive number" name="Tests for mathematical operation of division Should return correct quotient of negative number and positive number" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of division Should return an error when dividing by zero" name="Tests for mathematical operation of division Should return an error when dividing by zero" time="0.001">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of division Should return an error without parameter" name="Tests for mathematical operation of division Should return an error without parameter" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of division Should return an error when using a string instead of a number" name="Tests for mathematical operation of division Should return an error when using a string instead of a number" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of division 6 / 2 equal 3" name="Tests for mathematical operation of division 6 / 2 equal 3" time="0.001">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of division -14 / 2 equal -7" name="Tests for mathematical operation of division -14 / 2 equal -7" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of division 6 / 3 equal 2" name="Tests for mathematical operation of division 6 / 3 equal 2" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of division -21 / -3 equal 7" name="Tests for mathematical operation of division -21 / -3 equal 7" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Tests for mathematical addition operation" errors="0" failures="0" skipped="0" timestamp="2023-11-20T19:58:27" time="0.155" tests="9">
+    <testcase classname="Tests for mathematical addition operation Should return correct sum of integers" name="Tests for mathematical addition operation Should return correct sum of integers" time="0.002">
+    </testcase>
+    <testcase classname="Tests for mathematical addition operation Should return correct sum of decimal numbers" name="Tests for mathematical addition operation Should return correct sum of decimal numbers" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical addition operation Should return correct sum of negative numbers" name="Tests for mathematical addition operation Should return correct sum of negative numbers" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical addition operation Should return correct sum of negative number and positive number" name="Tests for mathematical addition operation Should return correct sum of negative number and positive number" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical addition operation Should return 0 without parameter" name="Tests for mathematical addition operation Should return 0 without parameter" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical addition operation 1 + 2 equal 3" name="Tests for mathematical addition operation 1 + 2 equal 3" time="0.001">
+    </testcase>
+    <testcase classname="Tests for mathematical addition operation -3 + 4 equal 1" name="Tests for mathematical addition operation -3 + 4 equal 1" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical addition operation 2 + 3 equal 5" name="Tests for mathematical addition operation 2 + 3 equal 5" time="0.001">
+    </testcase>
+    <testcase classname="Tests for mathematical addition operation -2 + -5 equal -7" name="Tests for mathematical addition operation -2 + -5 equal -7" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Tests for mathematical operation of squre" errors="0" failures="0" skipped="0" timestamp="2023-11-20T19:58:27" time="0.177" tests="8">
+    <testcase classname="Tests for mathematical operation of squre Should return correct square of integer" name="Tests for mathematical operation of squre Should return correct square of integer" time="0.003">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of squre Should return correct square of decimal number" name="Tests for mathematical operation of squre Should return correct square of decimal number" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of squre Should return correct square of negative number" name="Tests for mathematical operation of squre Should return correct square of negative number" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of squre should return an error without parameter" name="Tests for mathematical operation of squre should return an error without parameter" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of squre Should return an error when using a string instead of a number" name="Tests for mathematical operation of squre Should return an error when using a string instead of a number" time="0.001">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of squre 2 * 4 equal %i" name="Tests for mathematical operation of squre 2 * 4 equal %i" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of squre -3 * 9 equal %i" name="Tests for mathematical operation of squre -3 * 9 equal %i" time="0">
+    </testcase>
+    <testcase classname="Tests for mathematical operation of squre 2 * 4 equal %i" name="Tests for mathematical operation of squre 2 * 4 equal %i" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
