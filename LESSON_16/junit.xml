@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="19" failures="0" errors="0" time="2.621">
+  <testsuite name="API books tests" errors="0" failures="0" skipped="0" timestamp="2023-12-03T11:39:45" time="2.31" tests="10">
+    <testcase classname="API books tests API books test for &quot;get&quot; should return status code 200" name="API books tests API books test for &quot;get&quot; should return status code 200" time="0.005">
+    </testcase>
+    <testcase classname="API books tests API books test for &quot;get&quot; should be valid response body" name="API books tests API books test for &quot;get&quot; should be valid response body" time="0.014">
+    </testcase>
+    <testcase classname="API books tests API books tests for &quot;get by id 1&quot; should return status code 200" name="API books tests API books tests for &quot;get by id 1&quot; should return status code 200" time="0.001">
+    </testcase>
+    <testcase classname="API books tests API books tests for &quot;get by id 1&quot; should be valid response body" name="API books tests API books tests for &quot;get by id 1&quot; should be valid response body" time="0.001">
+    </testcase>
+    <testcase classname="API books tests API books tests for &quot;post&quot; should return status code 200" name="API books tests API books tests for &quot;post&quot; should return status code 200" time="0.001">
+    </testcase>
+    <testcase classname="API books tests API books tests for &quot;post&quot; should be valid response body" name="API books tests API books tests for &quot;post&quot; should be valid response body" time="0">
+    </testcase>
+    <testcase classname="API books tests API books tests for &quot;put&quot; schould return status code 200" name="API books tests API books tests for &quot;put&quot; schould return status code 200" time="0">
+    </testcase>
+    <testcase classname="API books tests API books tests for &quot;put&quot; should be valid response body" name="API books tests API books tests for &quot;put&quot; should be valid response body" time="0">
+    </testcase>
+    <testcase classname="API books tests API books tests for &quot;delete&quot; should return status code 200" name="API books tests API books tests for &quot;delete&quot; should return status code 200" time="0.001">
+    </testcase>
+    <testcase classname="API books tests API books tests for &quot;delete&quot; should be invalid response body" name="API books tests API books tests for &quot;delete&quot; should be invalid response body" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="API weather tests" errors="0" failures="0" skipped="0" timestamp="2023-12-03T11:39:45" time="2.337" tests="9">
+    <testcase classname="API weather tests valid cases for &quot;get by id&quot; should return status code 200" name="API weather tests valid cases for &quot;get by id&quot; should return status code 200" time="0.005">
+    </testcase>
+    <testcase classname="API weather tests valid cases for &quot;get by id&quot; should be valid response body" name="API weather tests valid cases for &quot;get by id&quot; should be valid response body" time="0.002">
+    </testcase>
+    <testcase classname="API weather tests valid cases for &quot;get&quot; should return status code 200" name="API weather tests valid cases for &quot;get&quot; should return status code 200" time="0.001">
+    </testcase>
+    <testcase classname="API weather tests valid cases for &quot;get&quot; should be valid response body" name="API weather tests valid cases for &quot;get&quot; should be valid response body" time="0.012">
+    </testcase>
+    <testcase classname="API weather tests valid cases for &quot;post&quot; should return status code 200" name="API weather tests valid cases for &quot;post&quot; should return status code 200" time="0">
+    </testcase>
+    <testcase classname="API weather tests valid cases for &quot;post&quot; should be valid response body" name="API weather tests valid cases for &quot;post&quot; should be valid response body" time="0.001">
+    </testcase>
+    <testcase classname="API weather tests valid cases for &quot;put&quot; should return status code 200" name="API weather tests valid cases for &quot;put&quot; should return status code 200" time="0">
+    </testcase>
+    <testcase classname="API weather tests valid cases for &quot;put&quot; should be valid response body" name="API weather tests valid cases for &quot;put&quot; should be valid response body" time="0.001">
+    </testcase>
+    <testcase classname="API weather tests valid cases for &quot;delete&quot; should return status code 200" name="API weather tests valid cases for &quot;delete&quot; should return status code 200" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
