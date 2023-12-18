@@ -1,0 +1,17 @@
+{
+  "name": "lesson_18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter mochawesome --timeout=600000"
+  },
+  "author": "Katya Grabovaya",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.16.0"
+  }
+}
