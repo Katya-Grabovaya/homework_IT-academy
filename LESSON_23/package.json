@@ -1,0 +1,17 @@
+{
+  "name": "lesson_23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Katya Grabovaya",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.3"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
