@@ -1,5 +1,5 @@
 import { BasePage } from "./basePage.js";
-import homePage from "./homePage.js";
+
 
 class SearchResultPage extends BasePage {
   constructor() {
@@ -15,9 +15,17 @@ class SearchResultPage extends BasePage {
     return $('#pta-product-205224107-0');
   }
 
+  get warnMessage(){
+    return $('#search-term-banner')
+  }
+
+  get errorMessage() {
+    return $('#chrome-app-container [data-desktop-bgcolor="#edf1f7"] h2.grid-text__title ')
+  }
+
   async selectProduct() {
     await this.productItem.waitForClickable();
-    const searchItemText = await homePage.getText(this.productItem);
+    const searchItemText = await this.getText(this.productItem);
     await this.productItem.click();
     return searchItemText;
   }

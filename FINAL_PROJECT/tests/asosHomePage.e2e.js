@@ -15,5 +15,20 @@ it('should change the delivery location to UK', async() => {
     expect (await header.UK.isSelected()).to.equal(true);
 })
 
+it('should go to the "AS SEEN ON ME" page and check it title is appropriate', async() => {
+    await homePage.switchToAnyWomanPage(homePage.seenOnMeWomanButton)
+    const seenOnMePageTitle = await homePage.getText(homePage.seenOnMeWomanPageTitle)
+    expect(seenOnMePageTitle).to.equal('AS SEEN ON ME')
+})
+
+it('should check that breadcrumbs on Sale Woman Page contain "Woman", "Sale"', async() => {
+    await homePage.switchToAnyWomanPage(homePage.saleWomanButton)
+    const breadcrumbsOnWomanSalePageText = await homePage.getText(homePage.breadcrumbsOnWomanSalePage)
+    expect(breadcrumbsOnWomanSalePageText).to.include('Woman' && 'Sale')
+})
+
+
+
+
 
 })

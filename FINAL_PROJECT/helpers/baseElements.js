@@ -1,6 +1,6 @@
 class BaseElements {
     async click(element) {
-      await element.waitForClickable({timeout: 25000});
+      await element.waitForClickable({timeout: 35000});
       await element.click()
     }
 

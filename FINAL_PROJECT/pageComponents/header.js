@@ -31,6 +31,6 @@ async chooseCountry(element) {
   await element.click();
 }
 
-  }
+}
 
   export default new Header();

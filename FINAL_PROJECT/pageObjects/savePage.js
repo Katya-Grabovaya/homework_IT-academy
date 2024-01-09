@@ -1,5 +1,4 @@
 import { BasePage } from "./basePage.js";
-import homePage from "./homePage.js";
 import productPage from "./productPage.js";
 
 class SavePage extends BasePage {
@@ -17,9 +16,9 @@ class SavePage extends BasePage {
 
 
   async addToSave() {
-    await homePage.click(productPage.saveButton);
+    await this.click(productPage.saveButton);
     await this.saveLink.click();
-    const productInSaveText = await homePage.getText(this.productInSave);
+    const productInSaveText = await this.getText(this.productInSave);
     return productInSaveText
   }
 

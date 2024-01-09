@@ -5,8 +5,16 @@ class FilterPage extends BasePage {
     super()
   }
 
-  get productFiltered(){
-    return $('#product-205154554 a.productLink_KM4PI');
+  get productFilteredByGender(){
+    return $('#pta-product-204755281-0');
+  }
+
+  get productFilteredByColour() {
+    return $('#pta-product-204175736-0')
+  }
+
+  get ptoductFilteredByBodyFit() {
+    return $('#pta-product-205455187-0')
   }
 
 

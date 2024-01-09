@@ -5,8 +5,8 @@ class TopMenu extends BaseComponents {
     super();
   }
 
-  get newInButton() {
-    return $('#chrome-sticky-header  button[data-id="1020946c-8949-4e9c-9719-43435002bcd4"]');
+  get saleButton() {
+    return $('#chrome-sticky-header button[data-id="57242f2c-d207-471c-95b1-31d6839df360"]');
 }
 
 }

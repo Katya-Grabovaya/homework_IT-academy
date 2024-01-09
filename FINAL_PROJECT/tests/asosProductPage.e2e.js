@@ -16,10 +16,10 @@ beforeEach('should open the website of the ASOS and find a Product Item', async(
 
 it('should get additional information about product, which should necessarily contains Product Code', async() => {
     await searchResultPage.selectProduct();
+    await productPage.closeDeliveryWindow();
     await homePage.click(productPage.productDetailsButton);
-    await productPage.productDetailsList.waitForStable({timeout: 35000})
-    const productDetailsText = await homePage.getText(productPage.productDetailsList);
-    expect(productDetailsText).to.contain("Product Code");
+    await productPage.productDetailsList.waitForDisplayed({timeout: 35000})
+    expect(await homePage.getText(productPage.productDetailsList)).to.include('Product Code');
 })
 
 it('should switch to another product from the recommended ones', async () => {
@@ -32,6 +32,6 @@ it('should find product item and add it to save', async () => {
     const searchItemText = await searchResultPage.selectProduct();
     const productInSaveText = await savePage.addToSave();
     expect(productInSaveText).to.equal(searchItemText);
-  })
+})
 
 })

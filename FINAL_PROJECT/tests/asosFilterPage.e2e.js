@@ -14,8 +14,20 @@ beforeEach('should open the website of the ASOS', async() => {
 
 it('should filltered the search result by Gender: "Unisex" and the result contains "unisex"', async() =>{
     await searchComponents.searchByText('jacket');
-    await filterComponents.filterByGender(filterComponents.unisexFilterButton)
-    expect(await filterPage.getText(filterPage.productFiltered)).to.contain('unisex') 
+    await filterComponents.filterByCriteria(filterComponents.genderFilterButton,filterComponents.unisexFilterButton)
+    expect(await filterPage.getText(filterPage.productFilteredByGender)).to.include('unisex') 
+})
+
+it('should filltered the search result by Colour: "Green" and the result contains "green" or "olive"', async() =>{
+    await searchComponents.searchByText('Loafers');
+    await filterComponents.filterByCriteria(filterComponents.colourFilterButton,filterComponents.greenFilterButton)
+    expect(await filterPage.getText(filterPage.productFilteredByColour)).to.include('green' || 'olive') 
+})
+
+it('should filltered the search result by Body Fit: "Extra Wide Fit" and the result contains "Extra Wide Fit"', async() =>{
+    await searchComponents.searchByText('Boots');
+    await filterComponents.filterByCriteria(filterComponents.bodyFitFilterButton,filterComponents.extraWideFitButton)
+    expect(await filterPage.getText(filterPage.ptoductFilteredByBodyFit)).to.include('Extra Wide Fit') 
 })
 
 })

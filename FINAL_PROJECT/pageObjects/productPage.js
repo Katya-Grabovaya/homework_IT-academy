@@ -12,7 +12,7 @@ class ProductPage extends BasePage {
   }
 
   get productDetailsList() {
-    return $('#productDescriptionDetails div.accordion-item-module_content__2cDKX');
+    return $('// *[@id="productDescriptionDetails"]//p[@class="Jk9Oz"]');
   }
 
   get recommendedProduct() {
@@ -27,6 +27,24 @@ class ProductPage extends BasePage {
     return $('#pdp-react-critical-app  button.AGXyD.GIdCP')
   }
 
+  get reviewTitle() {
+    return $('#reviewTitle')
+  }
+
+  get belarusDeliveryButton(){
+    return $('#chrome-welcome-mat  button.qQoHatg.jFyrDfG.UNPPQ3g ')
+  }
+  
+  get closeDeliveryWindowButton(){
+    return $('#chrome-modal-container  button.REGknlu')
+  }
+  
+  async closeDeliveryWindow() {
+    if (this.belarusDeliveryButton.isClickable()){
+    await this.click(this.belarusDeliveryButton);
+    await this.click(this.closeDeliveryWindowButton);
+    }
+  }
 
 }
 

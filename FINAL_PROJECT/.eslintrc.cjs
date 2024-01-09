@@ -25,7 +25,7 @@ module.exports = {
         "sourceType": "module"
     },
 
-    "parser": "babel-eslint",
+
 
     "rules": {
     'no-restricted-syntax': 0,
@@ -49,7 +49,7 @@ module.exports = {
             'ignoreEOLComments': true
         }
     ],
-    'no-console': 'warn',
+    'no-console': 'off',
     //     'error',
     //     {
     //         'allow': [
