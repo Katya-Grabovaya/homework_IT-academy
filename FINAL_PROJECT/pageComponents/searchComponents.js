@@ -6,11 +6,11 @@ class SearchComponent extends BaseComponents {
   }
 
   get searchField() {
-    return $('#chrome-search');
+    return $("#chrome-search");
   }
 
   get buttonForSearch() {
-    return $('button.vjmVpyd');
+    return $("button.vjmVpyd");
   }
 
   async searchByText(searchText) {
@@ -19,8 +19,6 @@ class SearchComponent extends BaseComponents {
     await this.searchField.setValue(searchText);
     await this.buttonForSearch.click();
   }
-
-
 }
 
 export default new SearchComponent();

@@ -4,13 +4,9 @@ class Footer extends BaseComponents {
   constructor() {
     super();
   }
-get helpButton(){
-    return $('//*[@id="chrome-footer"]//a[text()="Help"]')
+  get helpButton() {
+    return $('//*[@id="chrome-footer"]//a[text()="Help"]');
+  }
 }
 
-
-}
-
-  export default new Footer();
-
-
+export default new Footer();

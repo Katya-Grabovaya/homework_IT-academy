@@ -6,31 +6,31 @@ class Header extends BaseComponents {
   }
 
   get countrySelector() {
-    return $('#chrome-header button.breiRmE.TYb4J9A');
+    return $("#chrome-header button.breiRmE.TYb4J9A");
   }
 
   get countryListButton() {
-    return $('#country');
+    return $("#country");
   }
 
   get saveCountryButton() {
-    return $('#chrome-modal-container  button.AlRI892.w3QwoQC');
+    return $("#chrome-modal-container  button.AlRI892.w3QwoQC");
   }
 
   get UK() {
     return $('//*[@id="country"]/option[text()="United Kingdom"]');
   }
 
-  async changeCountryForDelivery() {
+  async getCountryName(countryName) {
+    return $(`//*[@id="country"]/option[text()="${countryName}"]`);
+  }
+
+  async changeCountryForDelivery(countryName) {
     await this.click(this.countrySelector);
     await this.click(this.countryListButton);
+    const countryFromList = await this.getCountryName(countryName);
+    await countryFromList.click();
+  }
 }
 
-async chooseCountry(element) {
-  await element.waitForDisplayed();
-  await element.click();
-}
-
-}
-
-  export default new Header();
+export default new Header();

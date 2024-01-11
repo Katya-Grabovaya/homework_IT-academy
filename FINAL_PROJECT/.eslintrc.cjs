@@ -50,15 +50,7 @@ module.exports = {
         }
     ],
     'no-console': 'off',
-    //     'error',
-    //     {
-    //         'allow': [
-    //             'warn',
-    //             'error',
-    //             'info'
-    //         ]
-    //     }
-    // ],
+
     "max-classes-per-file": [ "error", { "ignoreExpressions": true, "max": 10 } ],
     'no-shadow': 'off',
     'no-empty-function': ['error', { 'allow': ['constructors'] }],
@@ -83,14 +75,6 @@ module.exports = {
     'no-param-reassign': [
         'off'
     ],
-    // 'quotes': [
-    //     'error',
-    //     'single',
-    //     {
-    //         'allowTemplateLiterals': true,
-    //         'avoidEscape': true
-    //     }
-    // ],
     'prefer-arrow-callback': [
         'off'
     ],

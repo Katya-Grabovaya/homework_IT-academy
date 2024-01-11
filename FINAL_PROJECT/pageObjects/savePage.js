@@ -11,17 +11,15 @@ class SavePage extends BasePage {
   }
 
   get productInSave() {
-    return $('#pta-205224107-0')
+    return $("#pta-205224107-0");
   }
 
-
-  async addToSave() {
+  async addToSavePageAndReturnProductToSave(productToSave) {
     await this.click(productPage.saveButton);
     await this.saveLink.click();
-    const productInSaveText = await this.getText(this.productInSave);
-    return productInSaveText
+    const productInSaveText = await this.getText(productToSave);
+    return productInSaveText;
   }
-
 }
 
 export default new SavePage();
