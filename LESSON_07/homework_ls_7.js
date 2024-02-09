@@ -1,4 +1,4 @@
-function reverseArray1 (array3) {
+function reverseArray (array3) {
     const newArr = []
     for (let i = array3.length - 1; i >= 0; i--) {
         newArr.push(array3[i])
@@ -6,14 +6,13 @@ function reverseArray1 (array3) {
 return newArr;
 }
 let array3 = [16,99,88,6,3,];
-const newArr = reverseArray1 (array3);
+const newArr = reverseArray (array3);
 console.log (newArr);
 
 
 
 function findMaxValue (arr) {
-    const obj = Object.assign ({}, ...arr.map(item => ({[item]: true})));
-    const maxValue = Math.max(...Object.keys(obj));
+    const maxValue = Math.max(...arr);
     return maxValue;
 }
 let arr = [2,98,34,113];
@@ -22,26 +21,35 @@ console.log (maxValue);
 
 
 
-function getFibonachi (number) {
-    return number <= 1 ? number : getFibonachi (number - 1) + getFibonachi(number - 2)
-};
-console.log (getFibonachi(10));
+function fibonacciArray(N, M) {
+    let fibArray = [0, 1]; 
+    for (var i = 2; i < N + M; i++) {
+      if (fibArray.length === M) {
+        break;
+      }
+      fibArray.push(fibArray[i - 1] + fibArray[i - 2]);
+    }
+    return fibArray.slice(N); 
+  }
+  
+  console.log(fibonacciArray(7, 15)); 
+  
 
 
 
 function compareNumbers (number1, number2) {
 
     let matchValue = 0;
-    let completlyMatch = 0;
-    const arr1 = Array.from (String(number1), Number);
-    const arr2 = Array.from (String(number2), Number);
-    for (let i=0; i < arr1.length; i++) {
-        if(arr1[i] === arr2[i]) {
+    let completelyMatch = 0;
+    number1 = number1.toString();
+    number2 = number2.toString();
+    for (let i=0; i < number1.length; i++) {
+        if(number1[i] === number2[i]) {
             matchValue++;
-        } else if(arr2.includes(arr1[i])) {
-            completlyMatch++;
+        } else if(number2.includes(number1[i])) {
+            completelyMatch++;
         }
-    }return [matchValue, completlyMatch];
+    }return [matchValue, completelyMatch];
 } 
 const result = compareNumbers (8167, 3186);
 console.log (result);
